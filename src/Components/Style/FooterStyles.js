@@ -5,11 +5,12 @@ export const Div = styled.div`
   align-items: center;
   justify-content: space-evenly;
   flex-direction: column;
-  background-color: #372549;
+  position: relative;
+  top: 10px;
 `;
 
 export const P = styled.p`
   color: #b75d69;
   font-size: 20px;
-  background-color: #372549;
+  text-align: center;
 `;
