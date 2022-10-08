@@ -1,24 +1,22 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import * as S from "../Components/Style/HeaderStyles";
+import Logo from "../Components/Image/Logo-Port.png";
 
-const Header = ({ rota, rota2, rota3, rota4 }) => {
+const Header = ({ rota, rota2 }) => {
   return (
     <S.Div>
+      <S.Figure>
+        <S.Img src={Logo} />
+      </S.Figure>
       <S.Nav>
         <S.Ul>
-          <S.Li>
+          <li>
             <S.A to="/">{rota}</S.A>
-          </S.Li>
-          <S.Li>
-            <S.A to="/About">{rota2}</S.A>
-          </S.Li>
-          <S.Li>
-            <S.A to="/Works">{rota3}</S.A>
-          </S.Li>
-          <S.Li>
-            <S.A to="/Onu">{rota4}</S.A>
-          </S.Li>
+          </li>
+          <li>
+            <S.A to="/Works">{rota2}</S.A>
+          </li>
         </S.Ul>
       </S.Nav>
     </S.Div>
