@@ -6,6 +6,11 @@ export default class Works extends Component {
     return (
       <S.Div>
         <S.H1>Works</S.H1>
+        <S.DivTwo>
+          <a href="linemeo.github.io/Desafio---Login-LOL/" target="_blank">
+            <S.H2>Desafio Calculadora</S.H2>
+          </a>
+        </S.DivTwo>
       </S.Div>
     );
   }

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import * as S from "../Components/Style/HeaderStyles";
 import Logo from "../Components/Image/Logo-Port.png";
 
-const Header = ({ rota, rota2 }) => {
+const Header = ({ rota, rota2, rota3 }) => {
   return (
     <S.Div>
       <S.Figure>
@@ -15,7 +15,10 @@ const Header = ({ rota, rota2 }) => {
             <S.A to="/">{rota}</S.A>
           </li>
           <li>
-            <S.A to="/Works">{rota2}</S.A>
+            <S.A to="/About">{rota2}</S.A>
+          </li>
+          <li>
+            <S.A to="/Works">{rota3}</S.A>
           </li>
         </S.Ul>
       </S.Nav>
