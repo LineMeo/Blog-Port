@@ -7,13 +7,10 @@ export default class Works extends Component {
       <S.Div>
         <S.H1>Works</S.H1>
         <S.DivTwo>
-          <S.A href="https://desafiocalc.netlify.app" target="_blank">
+          <S.A href="https://n31wsk.csb.app/" target="_blank">
             <S.H2>Desafio Calculadora</S.H2>
           </S.A>
-          <S.A
-            href="https://codesandbox.io/s/github/LineMeo/Desafio-React-01-Contador"
-            target="_blank"
-          >
+          <S.A href="https://ob9oe7.csb.app/" target="_blank">
             <S.H2>Desafio Contador</S.H2>
           </S.A>
           <S.A href="https://challengelol.netlify.app" target="_blank">
@@ -25,7 +22,7 @@ export default class Works extends Component {
           <S.A href="https://portflowchallenge.netlify.app" target="_blank">
             <S.H2>Desafio PortFlow</S.H2>
           </S.A>
-          <S.A href="https://harrypotapi.netlify.app" target="_blank">
+          <S.A href="https://wl3msi.csb.app/" target="_blank">
             <S.H2>Desafio Hary Potter Api</S.H2>
           </S.A>
           <S.A href="https://aline-meo2.netlify.app" target="_blank">
